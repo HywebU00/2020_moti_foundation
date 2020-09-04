@@ -1,0 +1,139 @@
+.index-search{
+    .search-title{
+        letter-spacing:.08rem;
+        font-size: 1.5rem;
+        @include Small-size{
+            letter-spacing:0;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+    }
+    .input-group{
+        width: 25%;
+        @include Large-size {
+            width: 30%;
+        }
+        @include Medium-size {
+            width: 40%;
+        }
+        @include Small-size {
+            width: 100%;
+        }
+    }
+   
+}
+.index-header{
+      &::after{
+        content: '';
+        position: absolute;
+        height: 180px;
+        margin-top:-180px;
+        z-index: -100;
+        width: 100%;
+        background-color:$ivory;
+        @include Medium-size{
+            height: 210px;
+            margin-top: -210px;
+        }
+        @include Small-size{
+            height: 120px;
+            margin-top:-120px; 
+        }
+        @include Exsmall-size{
+            height: 140px;
+            margin-top:-140px; 
+        }
+    }  
+}
+.index-logo{
+    padding-top: 2rem ;
+    @include Medium-size{
+       padding-top: 0 ;
+       img{
+           width: 40%;
+       } 
+    }
+}
+.index-bg{
+    background: url(../img/Visionimg.svg) no-repeat right bottom;
+    background-size: 58%;
+    height: 460px;
+    margin-bottom: 3rem;
+    @include Small-size{
+        height: 280px;
+        margin-bottom: 1rem;
+    }
+    @include Exsmall-size{
+        height: 260px;
+    }
+}
+.index-title{
+    span{
+        display: block;
+        @include Exsmall-size{
+            display: inline-block;
+        }
+    }
+    font-weight: 700;
+    line-height: 1.55em;
+    font-size: 2.6rem;
+    @include Small-size{
+        font-size:1.6rem;
+    }
+    @include Small-size{
+        font-size:1.3rem;
+    }
+}
+.index-nav{
+    &::before{
+        content: '';
+        position: absolute;
+        height: 20px;
+        width: 100%;
+        background-color:$light-brown;
+        z-index: -1;
+    }
+}
+.index-application-icon{
+    width: 30%;
+    @include Large-size{
+        width: 20%;
+    }
+}
+.index-application-btn{
+    border: 4px solid #fff;
+    padding: 1.5rem 1rem !important;
+    width: 100%;
+    
+}
+.index-login-btn{
+    width: 100%;
+    padding: 1rem !important;
+    border: 4px solid #fff;
+    &:hover{
+        color: #fff !important;
+    }
+    @include Large-size{
+       margin-top: 2rem;
+    }
+}
+.index-btn-text{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.index-content{
+    padding-bottom: 5%;
+    background: url(../img/bg-img.png) right bottom no-repeat $ivory;
+    background-size: 55%;
+}
+
+.index-list-bg{
+    background-color: #fff;  
+    padding:1rem;
+}
+.nav-tag-btn{
+    .active{
+      background-color: $warning !important;
+    }
+}
