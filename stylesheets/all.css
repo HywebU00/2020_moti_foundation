@@ -10803,7 +10803,12 @@ body a {
   cursor: pointer;
 }
 
-thead > .bg-light {
+.word-link a {
+  color: #1a51a5;
+  text-decoration: underline !important;
+}
+
+thead .bg-light {
   background-color: #ececec !important;
 }
 
@@ -11193,6 +11198,7 @@ thead > .bg-light {
 @media (max-width: 768px) {
   .search-form-btn {
     height: auto;
+    margin: auto;
   }
 }
 

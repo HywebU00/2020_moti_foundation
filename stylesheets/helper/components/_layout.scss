@@ -6,8 +6,19 @@ body {
 		cursor: pointer;
 	}
 }
-thead > .bg-light{
-	background-color: #ececec !important; 
+.word-link{
+	a{
+		color:#1a51a5;
+		text-decoration: underline !important;
+	} 
+}
+
+
+thead {
+	.bg-light{
+		background-color: #ececec !important; 
+	}
+
 }
 .col-form-label {
 	padding-top: 0;
@@ -297,6 +308,7 @@ thead > .bg-light{
 	}
 	@include Medium-size {
 		height: auto;
+		margin: auto;
 	}
 }
 .check-td-btn {
