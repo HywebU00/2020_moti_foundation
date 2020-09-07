@@ -11451,4 +11451,12 @@ thead > .bg-light {
 .nav-tag-btn .active {
   background-color: #e5b0ae !important;
 }
+
+.nav .border-right {
+  border-right: 1px solid #e5b0ae !important;
+}
+
+.news-title {
+  letter-spacing: 0.1rem;
+}
 /*# sourceMappingURL=all.css.map */
