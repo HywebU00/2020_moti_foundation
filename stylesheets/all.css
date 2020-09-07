@@ -11177,9 +11177,17 @@ thead .bg-light {
   }
 }
 
+.search-form .input-style {
+  width: 100%;
+}
+
+.search-form .input-style .date-form-control {
+  width: 50%;
+}
+
 @media (max-width: 992px) {
-  .search-form .input-style {
-    width: 100%;
+  .search-form .input-style .date-form-control {
+    width: calc(50% - 10px);
   }
 }
 

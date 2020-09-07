@@ -6,19 +6,17 @@ body {
 		cursor: pointer;
 	}
 }
-.word-link{
-	a{
-		color:#1a51a5;
+.word-link {
+	a {
+		color: #1a51a5;
 		text-decoration: underline !important;
-	} 
+	}
 }
 
-
 thead {
-	.bg-light{
-		background-color: #ececec !important; 
+	.bg-light {
+		background-color: #ececec !important;
 	}
-
 }
 .col-form-label {
 	padding-top: 0;
@@ -295,8 +293,14 @@ thead {
 		}
 	}
 	.input-style {
+		width: 100%;
+		.date-form-control{
+			width: 50%;
+		}
 		@include Large-size {
-			width: 100%;
+			.date-form-control{
+				width: calc(50% - 10px);
+			}
 		}
 	}
 }
@@ -343,7 +347,7 @@ thead {
 	background-color: #966949 !important;
 }
 .change-application-bg {
-	background-color: #6d435a!important;
+	background-color: #6d435a !important;
 }
 .disagree-application-bg {
 	background-color: #706253 !important;
@@ -352,15 +356,15 @@ thead {
 	background-color: #354b55 !important;
 }
 
-.new-application-border{
+.new-application-border {
 	border-bottom: 3px solid #966949 !important;
 }
-.change-application-border{
+.change-application-border {
 	border-bottom: 3px solid #6d435a !important;
 }
-.disagree-application-border{
+.disagree-application-border {
 	border-bottom: 3px solid #706253 !important;
 }
-.agree-application-border{
+.agree-application-border {
 	border-bottom: 3px solid #354b55 !important;
 }
