@@ -27,6 +27,9 @@ thead {
 	width: 120px;
 	margin: 0 0.5rem;
 }
+.count-btn{
+	width: 32px;
+}
 .table-btn {
 	margin-bottom: 0.25rem;
 	width: 60px;
@@ -214,6 +217,7 @@ thead {
 	@include Large-size {
 		display: block;
 	}
+
 }
 .title {
 	font-size: 1.5rem;
