@@ -1,11 +1,13 @@
 body {
 	font-family: Lato, "PingFang TC", "Helvetica Neue", Helvetica, 微軟正黑體,
 		新細明體, Arial, sans-serif;
+
 	a {
 		text-decoration: none !important;
 		cursor: pointer;
 	}
 }
+
 .word-link {
 	a {
 		color: #1a51a5;
@@ -18,6 +20,7 @@ thead {
 		background-color: #ececec !important;
 	}
 }
+
 .col-form-label {
 	padding-top: 0;
 }
@@ -27,26 +30,32 @@ thead {
 	width: 120px;
 	margin: 0 0.5rem;
 }
-.count-btn{
+
+.count-btn {
 	width: 32px;
 }
+
 .table-btn {
 	margin-bottom: 0.25rem;
 	width: 60px;
 }
+
 .list-btn-group {
 	.btn {
 		margin-bottom: 0.5rem;
 	}
 }
+
 .nav-tag-btn {
 	font-weight: bold;
 	letter-spacing: 0.1rem;
 	font-size: 1.1rem;
+
 	li {
 		margin: 0.5rem;
 		background-color: $light;
 	}
+
 	.active {
 		color: $primary !important;
 		border-radius: 0 !important;
@@ -54,31 +63,39 @@ thead {
 		background-color: $secondary !important;
 	}
 }
+
 .card-header {
 	font-size: 1.2rem;
 }
+
 .footer-text {
 	font-size: 0.8rem;
 }
+
 .footer-bg {
 	line-height: 2rem;
 }
+
 .table-title,
 .form-title {
 	font-weight: bold;
 	color: $primary;
 	letter-spacing: 0.02rem;
 	line-height: 1.5;
+
 	@include Small-size {
 		padding-bottom: calc(0.375rem + 1px);
 	}
 }
+
 .primary-nav {
 	display: flex;
 }
+
 .primary-navbar-nav {
 	display: flex;
 	align-items: center;
+
 	li {
 		width: 16%;
 		font-weight: bold;
@@ -91,38 +108,46 @@ thead {
 		}
 	}
 }
+
 .dropdown-menu {
 	padding: 0;
 	margin: 0;
 }
+
 .page-link {
 	border: 0;
+
 	&:hover {
 		background-color: $light-ivory;
 	}
 }
+
 .dropdown-item {
 	&:hover {
 		background-color: $primary;
 		color: #fff;
 	}
 }
+
 .login-tag {
 	a {
 		font-weight: bold;
 		letter-spacing: 0.05rem;
 	}
 }
+
 .login-status {
 	span {
 		font-size: 0.86rem;
 		font-weight: 500;
 		letter-spacing: 0.01rem;
 	}
+
 	@include Medium-size {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 	}
+
 	.span-block {
 		@media (max-width: 487px) {
 			display: block;
@@ -135,18 +160,22 @@ thead {
 	font-weight: bold;
 	padding-top: 3%;
 	padding-bottom: 3%;
+
 	@include Large-size {
 		font-size: 1.3rem;
 	}
+
 	@include Exsmall-size {
 		font-size: 1.2rem;
 	}
 }
+
 .news-list {
 	span {
 		text-align: end;
 	}
 }
+
 .header-bg {
 	background-image: url(../img/Visionimg-sm.svg);
 	background-repeat: no-repeat;
@@ -154,17 +183,21 @@ thead {
 	background-position-y: top;
 	background-position: right;
 	position: relative;
+
 	@include Extra-large {
 		background-size: auto 160px;
 	}
+
 	img {
 		width: 10%;
 		margin-right: 1%;
+
 		@include Large-size {
 			width: 12%;
 			margin-right: 2%;
 		}
 	}
+
 	&::after {
 		content: "";
 		display: flex;
@@ -176,6 +209,7 @@ thead {
 		left: 0;
 		bottom: 0;
 	}
+
 	@include Large-size {
 		display: none;
 	}
@@ -186,39 +220,49 @@ thead {
 	text-align: center;
 	width: 80%;
 	justify-content: center;
+
 	img {
 		height: 50px;
 		margin-right: 1%;
 		margin-top: 2%;
+
 		@include Large-size {
 			height: 40px;
 		}
+
 		@include Medium-size {
 			height: 40px;
 		}
+
 		@include Small-size {
 			height: 30px;
 			margin-top: 3%;
 		}
+
 		@include Exsmall-size {
 			height: 25px;
 			margin-right: 2%;
 		}
 	}
+
 	@include Large-size {
 		display: flex;
 	}
+
 	@include Small-size {
 		width: 75%;
 	}
 }
+
 .phone-login {
 	display: none;
+
 	@include Large-size {
 		display: block;
 	}
 
 }
+
 .title {
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -228,6 +272,7 @@ thead {
 
 .thead-style {
 	border-bottom: 3px solid $primary !important;
+
 	th {
 		white-space: nowrap;
 	}
@@ -248,27 +293,34 @@ thead {
 	padding: 2.5rem;
 	padding-top: 1rem;
 }
+
 .table-style {
 	width: 100%;
+
 	tbody {
 		padding: 1.5rem !important;
 	}
+
 	th {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+
 	th,
 	td {
 		border-bottom: 1px #dee2e6 solid;
 	}
 }
+
 .form-style {
 	input {
 		margin-bottom: 1rem;
 	}
+
 	.form-border {
 		border-bottom: 1px #dee2e6 solid;
 	}
+
 	.signin-box-border {
 		border-bottom: 1px #fff solid;
 	}
@@ -277,6 +329,7 @@ thead {
 .signin-card {
 	border: 10px solid #fff;
 }
+
 .alert-bg {
 	background-color: $light-ivory;
 	padding: 1rem;
@@ -284,60 +337,73 @@ thead {
 	font-size: 0.9rem;
 	letter-spacing: 0.05rem;
 }
+
 .search-form {
 	display: flex;
 	justify-content: center;
+
 	label {
 		margin-top: 0.5rem;
 		width: 100px;
 		text-align: right;
 		margin-right: 0.5rem;
+
 		@include Large-size {
 			text-align: left;
 		}
 	}
+
 	.input-style {
 		width: 100%;
-		.date-form-control{
+
+		.date-form-control {
 			width: 50%;
 		}
+
 		@include Large-size {
-			.date-form-control{
+			.date-form-control {
 				width: calc(50% - 10px);
 			}
 		}
 	}
 }
+
 .search-form-btn {
 	@include Large-size {
 		display: flex;
 		justify-content: center;
 		height: 36px;
 	}
+
 	@include Medium-size {
 		height: auto;
 		margin: auto;
 	}
 }
+
 .check-td-btn {
-	a {
+	button {
 		width: 120px;
 		margin-bottom: 0.5rem;
 		margin-right: 0.25rem;
 	}
 }
+
 .td-list-item {
 	display: flex;
 	justify-content: space-between;
+
 	@include Extra-large {
 		padding-top: 0.25rem;
 		padding-bottom: 0.25rem;
 	}
 }
+
 .modal-content,
 .modal-footer {
 	border: 0;
 }
+
 .modal-title {
 	font-size: 1.2rem;
 	letter-spacing: 0.01rem;
@@ -350,12 +416,15 @@ thead {
 .new-application-bg {
 	background-color: #966949 !important;
 }
+
 .change-application-bg {
 	background-color: #6d435a !important;
 }
+
 .disagree-application-bg {
 	background-color: #706253 !important;
 }
+
 .agree-application-bg {
 	background-color: #354b55 !important;
 }
@@ -363,12 +432,15 @@ thead {
 .new-application-border {
 	border-bottom: 3px solid #966949 !important;
 }
+
 .change-application-border {
 	border-bottom: 3px solid #6d435a !important;
 }
+
 .disagree-application-border {
 	border-bottom: 3px solid #706253 !important;
 }
+
 .agree-application-border {
 	border-bottom: 3px solid #354b55 !important;
 }
