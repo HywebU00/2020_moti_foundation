@@ -57,3 +57,28 @@
   margin: 0 auto;
   display: inherit;
 }
+.list{
+
+}
+.list ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list ul li{
+  padding: .8em;
+  border-bottom: 1px solid #dee2e6;
+}
+.list ul li .num{
+  margin-right: 0.5em;
+}
+.list ul li .num:after{
+  content: ".";
+}
+.list ul li a:hover{
+  text-decoration: underline!important;
+}
+.list ul li time{
+  color: #333;
+  margin-left: 0.5em;
+}
