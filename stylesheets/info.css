@@ -79,6 +79,15 @@
   text-decoration: underline!important;
 }
 .list ul li time{
-  color: #333;
+  color: #666;
   margin-left: 0.5em;
+}
+.header-bg.pb-4:after{
+  height: 2em;
+} 
+.breadcrumb{
+  background: transparent;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: .875rem;
 }
