@@ -91,3 +91,28 @@
   padding: 0;
   font-size: .875rem;
 }
+.address{
+
+}
+.address p{
+  text-align: center;
+}
+.address .addresspic{
+  text-align: center;
+  margin-bottom: 2em;
+}
+.address .addresspic img{
+  border: 3px solid #e5b0ae;
+}
+.address .addressinfo{
+  width: 650px;
+  margin: 0 auto;
+}
+.address .addressinfo h5 {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ddd;
+  text-align: center;
+}
+.address .addressinfo ol li {
+  margin-bottom: 5px;
+}
